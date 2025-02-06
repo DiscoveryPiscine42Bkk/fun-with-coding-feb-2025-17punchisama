@@ -8,7 +8,7 @@ h1 {
 
 .card {
     width: 350px;
-    height: 550px;
+    height: 570px;
     border: 1px solid #000;
     border-radius: 5px;
     display: flex;
@@ -27,4 +27,23 @@ table {
     text-align: center;
     border-collapse: collapse;
     width: 80%;
+}
+
+.fa {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-facebook, .fa-linkedin, .fa-github {
+    color: #000;
+    text-decoration: none;
+}
+
+button {
+    margin-top: auto;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
 }
