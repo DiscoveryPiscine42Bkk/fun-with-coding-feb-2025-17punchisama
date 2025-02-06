@@ -25,9 +25,9 @@
 
 
 .mid-block {
-    background-color: #b2ddf8;
+    background-color: #000000;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-    color: rgb(0, 15, 66);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px 20px;
     font-size: 1.5rem;
