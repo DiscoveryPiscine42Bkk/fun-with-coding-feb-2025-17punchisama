@@ -1,0 +1,53 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: #b2ddf8;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,  
+        -1px  1px 0 black,  
+         1px  1px 0 black;
+}
+
+h5 {
+    text-align: center;
+    color: navy;
+}
+.ham-box img,
+.cheese-box img {
+    text-align: center;
+    height: 200px; 
+    display: block;
+    margin: auto;
+}
+
+.ham-box, .cheese-box {
+    display: inline-block;
+    text-align: center;
+    width: 400px; 
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff7e0;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    box-sizing: border-box; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.selecter {
+    text-align: center;
+}

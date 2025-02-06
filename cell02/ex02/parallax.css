@@ -1,0 +1,38 @@
+* {
+    font-family: cursive;
+}
+
+.parallax {
+    background-image: url("https://images8.alphacoders.com/585/585449.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-overlay {
+    border-radius: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.mid-block {
+    background-color: #b2ddf8;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    color: rgb(0, 15, 66);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.second {
+    background-image: url("https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?cs=srgb&dl=pexels-simon73-1183099.jpg&fm=jpg");
+}
