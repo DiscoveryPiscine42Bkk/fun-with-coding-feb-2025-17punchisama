@@ -43,7 +43,7 @@
         balloon.addEventListener("click", () => {
             if (size < 420) {
                 size += 10;
-                colorIndex = (colorIndex - 1 + colors.length) % colors.length;
+                colorIndex = (colorIndex + 1 + colors.length) % colors.length;
             } else {
                 size = 200; 
                 colorIndex = 0;
